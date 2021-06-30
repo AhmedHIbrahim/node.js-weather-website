@@ -36,7 +36,7 @@ app.get("", (req, res) => {
 
 app.get("/about", (req, res) => {
   res.render("about", {
-    title: "About Page",
+    title: "About Us",
 
     name: "Ahmed Ibrahim",
 
@@ -50,7 +50,7 @@ app.get("/help", (req, res) => {
     header: "Node.js",
     name: "Ahmed Ibrahim",
 
-    message: "It seems to be good",
+    message: "",
   });
 });
 app.get("/weather", (request, response) => {
